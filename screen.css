@@ -456,6 +456,30 @@ p-f {
   filter: invert(82%) sepia(14%) saturate(489%) hue-rotate(305deg) brightness(97%) contrast(96%) opacity(30%);
 }
 
+.more-button a {
+  padding-left: 30px;
+  padding-top: 8px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 8px;
+  display: center;
+  width: 100px;
+  background-color: transparent;
+  color: #232323;
+  font-family: 'Gill Sans';
+  font-size: 24px;
+  border: solid;
+  border-width: 1px;
+  border-color: #232323;
+  border-radius: 0px;
+}
+
+.more-button a:hover {
+  background-color: #f1c1c6 !important;
+  opacity: .5 !important;
+}
+
 input:focus {
   outline-color: transparent !important;
   outline-style: none !important;
